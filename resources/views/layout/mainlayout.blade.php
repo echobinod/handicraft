@@ -6,8 +6,9 @@
  <body>
 @include('layout.partials.nav')
 @include('layout.partials.header')
-@yield('content')
-
+<div id="app"> 
+  @yield('content')
+</div>
 @include('layout.partials.footer')
 @include('layout.partials.footer-scripts')
  </body>
