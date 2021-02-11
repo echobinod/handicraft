@@ -1,10 +1,21 @@
-<section class="jumbotron text-center">
-    <div class="container">
-      <h1 class="jumbotron-heading">Album example</h1>
-      <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sIet, but not too short so folks don't simply skip over it entirely.</p>
-      <p>
-        <a href="#" class="btn btn-primary">Main call to action</a>
-        <a href="#" class="btn btn-secondary">Secondary action</a>
-      </p>
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation" id="menu">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button> 
+      <a class="navbar-brand" href="#" title="Unique Craft Nepal"><strong>UCN</strong></a>
     </div>
-</section>
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Products</a></li>
+        <li><a href="#contact">Contact</a></li> 
+      </ul> 
+    </div><!--/.nav-collapse -->
+  </div>
+</div>

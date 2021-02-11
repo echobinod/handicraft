@@ -8,5 +8,4 @@ export default new VueRouter({
     routes: [
         {path: '/', component: ExampleComponent}
     ],
-    mode: 'history'
 });

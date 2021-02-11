@@ -16,4 +16,4 @@ use App\Http\Controllers\HomeController;
 */
 // Auth::routes;
 
-Route::get('/home', [HomeController::class, 'index']);
+Route::get('/', [HomeController::class, 'index']);
